@@ -13716,9 +13716,7 @@
 
           if (resetNumPages) {
             if (this.hasPageLabels) {
-              items.pageNumber.type = "text";
             } else {
-              items.pageNumber.type = "number";
               this.l10n.get("of_pages", {
                 pagesCount
               }).then(msg => {
